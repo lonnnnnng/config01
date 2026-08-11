@@ -1,0 +1,15 @@
+{
+  "version": 120230407,
+  "rankHtmlCharset": "utf-8",
+  "imgRefererRank": "",
+  "baseUrlRank": "http://top.baidu.com",
+  "userAgentRank": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36",
+  "tvRankUrl": "https://top.baidu.com/board?tab=novel",
+  "ruleRankList": "class.category-wrap_iQLoo ",
+  "ruleVideoRankTitle": "class.c-single-text-ellipsis.0@text",
+  "ruleVideoRankCover": "tag.img.0@src",
+  "ruleVideoRankCoverPrefix": "",
+  "ruleVideoRankScore": "class.hot-index_1Bl1a.0@text",
+  "ruleVideoRankDesc1": "class.intro_1l0wp.0@text",
+  "ruleVideoRankDesc2": "class.c-single-text-ellipsis desc_3CTjT.0@text"
+}
