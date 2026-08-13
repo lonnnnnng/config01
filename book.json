@@ -2,7 +2,7 @@
     {
         "name": "麒麟听书网",
         "code": "70ts",
-        "version": 220230606,
+        "version": 220260814,
         "serialnumber": 1,
         "isCustom": false,
         "baseUrl": "https://m.70ts.com",
@@ -38,7 +38,7 @@
         "ruleCategoryCover": "tag.img.0@data-original",
         "categoryCoverPrefix": "",
         "ruleSeasonTitle": "class.book-title.0@text",
-        "ruleSeasonCover": "class.book.0@tag.img.0@src",
+        "ruleSeasonCover": "class.book-cover-1.0@src",
         "ruleSeasonCoverPrefix": "",
         "ruleSeasonInfoList": "class.book-cell.0@tag.div",
         "ruleSeasonDesc": "class.book-des ellipsis.0@text",
