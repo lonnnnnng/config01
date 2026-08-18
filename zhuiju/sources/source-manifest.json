@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "sourceSnapshot": "tita-2.15.3-plain-20260818-r1",
+  "baseRuleCount": 10,
+  "webSourceCount": 29,
+  "searchableSourceCount": 27,
+  "resourceSourceCount": 12,
+  "videoSourceCount": 17,
+  "remoteConfigEnabled": true,
+  "adsEnabled": false,
+  "files": [
+    {
+      "path": "base/config.plain.json",
+      "sha256": "e945857bb7f8510dbed3e483c0879af803358ad173a74967280d3a4cc6c00154",
+      "size": 14100
+    },
+    {
+      "path": "base/siteList.plain.json",
+      "sha256": "384ea725faf0d8e03bd8c256d0d6f2678b0a9deb58ecc55be8a1faeadf80a8b6",
+      "size": 2755
+    },
+    {
+      "path": "base/sourceDouList.plain.json",
+      "sha256": "b89ade14e43b4683ba5a6e9bb90ab13ab0488ebeb0a0e01ee7f5c69e441d66ce",
+      "size": 1421
+    },
+    {
+      "path": "base/sourceDownload.plain.json",
+      "sha256": "ac08dbea211eb0e6f8f23273916d4c6280a2d66bffcf8cd6a44642fc4cec1b7d",
+      "size": 5741
+    },
+    {
+      "path": "base/sourceIndexRec.plain.json",
+      "sha256": "e3993d1ffd34215822f2952d67b1ce473d562c886b4e3e7a19d858adb0a2739e",
+      "size": 6830
+    },
+    {
+      "path": "base/sourceLive.plain.json",
+      "sha256": "d032ce239650a44665401f14dbf5696e04b5ed06c44d86e9a2b9e066980c3a7c",
+      "size": 13362
+    },
+    {
+      "path": "base/sourcePrevue.plain.json",
+      "sha256": "d42bd3caa2d7b9cabd0e93aead0f32cd612cad99b5e51b68350faf4d1a2105e6",
+      "size": 828
+    },
+    {
+      "path": "base/sourceSchedule.plain.json",
+      "sha256": "b7f562ca4f565dfa0bc29a32997084db37cafef033ea587aceffcb540f83abc9",
+      "size": 2281
+    },
+    {
+      "path": "base/sourceSearch.plain.json",
+      "sha256": "5a71ffb2ce57903565f24a3a9a884d59f7b971fedfaefd54fd7f874af5559864",
+      "size": 789
+    },
+    {
+      "path": "base/sourceSeason.plain.json",
+      "sha256": "4b8a2d4b4cdecc1b22777a6fc4d68f4432d153a557f99716d4dd9cf2c9a2bd2e",
+      "size": 783
+    },
+    {
+      "path": "web/360z_y.plain.json",
+      "sha256": "720084f222001a56164febba56a7146ff38e43ab717e77e4c7b97ea6b83c1da2",
+      "size": 3041
+    },
+    {
+      "path": "web/3haotv.plain.json",
+      "sha256": "3119fb67f7ff89987591a8a0e15a28fdb3b2fab85cd925d4e702abf5e7093b72",
+      "size": 1909
+    },
+    {
+      "path": "web/5o5k.plain.json",
+      "sha256": "68c147016a5ff171db3ae52f0f92cc1db6f1a0d44ecd31124e78b56d473ac0f8",
+      "size": 2015
+    },
+    {
+      "path": "web/660f.plain.json",
+      "sha256": "98211affcc9e3ae9437765d8bc4bea0194f3afb99a409fdf95a0238101133058",
+      "size": 2145
+    },
+    {
+      "path": "web/aiqiyiz_y.plain.json",
+      "sha256": "5531ec4325af65f58e3f515f35ffceaff36e8b8919e4d80af7c4f8d4929c5913",
+      "size": 2732
+    },
+    {
+      "path": "web/baofengz_y.plain.json",
+      "sha256": "bd92c4a6787b537b42bd0575a022cb6efb48ee713fca24fb2538e2f91ec03d2a",
+      "size": 3213
+    },
+    {
+      "path": "web/dyttz_y.plain.json",
+      "sha256": "a7eea1bebce92f44c32a7013abdc176f1143b6ac9134cef6ff933d7b1582907a",
+      "size": 2988
+    },
+    {
+      "path": "web/fdzys.plain.json",
+      "sha256": "c84fe836cc4ee4a03f29b1000f0b307357b10a0888c824a9d1d453279bb72263",
+      "size": 1945
+    },
+    {
+      "path": "web/ffz_y.plain.json",
+      "sha256": "ba74bf253ffcd5cca50ad80f475a355e12f0e36d11c5fc3138e82ef163208c05",
+      "size": 3212
+    },
+    {
+      "path": "web/hongniuz_y.plain.json",
+      "sha256": "a5a35fe7e59ebb51674c4b329f4610d87117ab8c471a19b19762b05f907f0d36",
+      "size": 3036
+    },
+    {
+      "path": "web/ifun.plain.json",
+      "sha256": "988f41d5c02c7e1dbfd664ccdd5c2fcf1b3f2e51c1ce27021822eeeae55c7b66",
+      "size": 2003
+    },
+    {
+      "path": "web/jisuz_y.plain.json",
+      "sha256": "a2406d1e625724b99ebf3c6d0a437c498d928292decb5d4e48be757bf76880cb",
+      "size": 3043
+    },
+    {
+      "path": "web/jp.plain.json",
+      "sha256": "735fdff4695b9775d60da5f4852a651e7ef7c52a9b510fe7507ab7f4e0b5636c",
+      "size": 1864
+    },
+    {
+      "path": "web/kanxi.plain.json",
+      "sha256": "46278958b31358f0078adc0cf6e45994118a6e38f18438ac6a14dcfdbb64498d",
+      "size": 1905
+    },
+    {
+      "path": "web/kkw.plain.json",
+      "sha256": "1192fc64851f5d80072a2761aaa05557aa4d613726b5b6a9a627793a76b0f315",
+      "size": 2017
+    },
+    {
+      "path": "web/nmys.plain.json",
+      "sha256": "75c37eff5900288597d2edfae493ea0da3175f441b1865fd8bf4b77d5c610329",
+      "size": 1898
+    },
+    {
+      "path": "web/pipba.plain.json",
+      "sha256": "eca315eae2891176ba7d5d96e704b36e317f3e68a5179e9569c3f5dba1fbfa0e",
+      "size": 1993
+    },
+    {
+      "path": "web/qlys.plain.json",
+      "sha256": "db4a0200386815f19a957e6344f934225d3b50e4a50e79a7614b44c18f30fb10",
+      "size": 1871
+    },
+    {
+      "path": "web/ruyiz_y.plain.json",
+      "sha256": "c71c19fed991f45e8ce0f43288d5e8cc74b6cc538a7d3a8fc424f5d2fb12cffe",
+      "size": 3054
+    },
+    {
+      "path": "web/shdy.plain.json",
+      "sha256": "57ec8a3119ca3cc6b5f10418c7fab6d81a3c81fc364bc245c5901153b48e6c08",
+      "size": 1709
+    },
+    {
+      "path": "web/suboz_y.plain.json",
+      "sha256": "f12a5ec97e462f4246de2880f2ed7a234b0a0f89d6de7945b73ed32624af9c18",
+      "size": 3052
+    },
+    {
+      "path": "web/taiee.plain.json",
+      "sha256": "b6ec0b536a3f149361a42a77ecebd5b7fbbdab4a5a959282a3028ed30606d594",
+      "size": 2219
+    },
+    {
+      "path": "web/tianyaz_y.plain.json",
+      "sha256": "2e68dea01f761cc29aee2de9c43b513059d867be66830b5a26a6ca1e29c3aca2",
+      "size": 2441
+    },
+    {
+      "path": "web/tvfans.plain.json",
+      "sha256": "a52d303fb60817b6613fd6a236de1e8fd69a201f627dfa508039f8ddfd955902",
+      "size": 2060
+    },
+    {
+      "path": "web/ukuz_y.plain.json",
+      "sha256": "7333cfed9747ebd8facc7d75d50153c2e59477791473e9aca6c656377513cb6d",
+      "size": 3057
+    },
+    {
+      "path": "web/wfei.plain.json",
+      "sha256": "acd9cb95940dfea5173c3afe6e477d54ff1ff8a5d0fb20db03323c8325a63adf",
+      "size": 1955
+    },
+    {
+      "path": "web/wukong.plain.json",
+      "sha256": "18b6cb0d3799557209fa3fb0515063a20ca2e65df8de9b1a6b2e332bd0a6cf77",
+      "size": 1911
+    },
+    {
+      "path": "web/ylsp.plain.json",
+      "sha256": "2ea8d292744759f8878ce75e4d661d1debda89c49dfa2e784400d31ea666cd13",
+      "size": 2094
+    },
+    {
+      "path": "web/zuidaz_y.plain.json",
+      "sha256": "e5a4f52a311f9f4b4af5d9ec236f088ec8fb29503e52d401f629443e75a1d0ea",
+      "size": 3056
+    }
+  ]
+}

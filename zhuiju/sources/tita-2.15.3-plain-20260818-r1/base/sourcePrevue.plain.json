@@ -1,0 +1,21 @@
+{
+    "version":20250114,
+    "imgReferer":"none",
+    "baseUrl":"https://m.6huo.com",
+    "userAgent":"",
+    "reqPage":"https://m.6huo.com/?view=list&listtype=movlist&later=1&page={page}",
+    "ruleList":"class.col2-item col3-item",
+    "ruleListTitle":"class.col2-item-title.0@text",
+    "ruleListInfo":"class.col2-item-info.0@text",
+    "ruleListCover":"tag.img.0@src",
+    "ruleListCoverPrefix":"",
+    "ruleListLink":"href#\\.",
+    "ruleListLinkPrefix":"https://m.6huo.com",
+    "ruleDetailList":"class.col2-item col2-item-bigpic",
+    "ruleDetailListTitle":"class.col2-item-title.0@text",
+    "ruleDetailListLink":"href",
+    "ruleDetailListLinkPrefix":"https://m.6huo.com",
+    "ruleDetailListTime":"class.col2-item-info.0@text",
+    "ruleDetailVideoClass":"id.player@html",
+    "ruleDetailVideoSrc":"tag.video.0@src"
+}
