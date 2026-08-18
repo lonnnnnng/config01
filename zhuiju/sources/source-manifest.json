@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "sourceSnapshot": "tita-2.15.3-plain-20260818-r1",
+  "sourceSnapshot": "tita-2.15.3-plain-20260819-r2",
   "baseRuleCount": 10,
   "webSourceCount": 29,
   "searchableSourceCount": 27,
@@ -146,8 +146,8 @@
     },
     {
       "path": "web/qlys.plain.json",
-      "sha256": "db4a0200386815f19a957e6344f934225d3b50e4a50e79a7614b44c18f30fb10",
-      "size": 1871
+      "sha256": "113522687787a1daabf36fd034d36348f7ac70c315ba4b4296f8083ca3725334",
+      "size": 1866
     },
     {
       "path": "web/ruyiz_y.plain.json",
