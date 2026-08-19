@@ -1,0 +1,16 @@
+{
+    "webSourceBaseUrl":"https://m.douban.com",
+    "httpUserAgent":"Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 Chrome/126 Mobile Safari/537.36",
+    "urlPrefix":"https://m.douban.com/movie/subject/movieId/",
+    "version":20260817,
+    "imgReferer":"none",
+    "runleSeasonTitle":"class.sub-title@text",
+    "runleSeasonSummary":"class.subject-intro@tag.p@text",
+    "runleSeasonRating":"tag.meta[itemprop=ratingValue]@content",
+    "runleSeasonNumRaters":"tag.meta[itemprop=reviewCount]@content",
+    "runleSeasonActorList":"tag.section#celebrities@tag.li",
+    "runleSeasonActorName":"class.item-title name@text",
+    "runleSeasonActorType":"class.item-title role@text",
+    "runleSeasonInfo":"class.sub-meta@text",
+    "runleSeasonCover":"class.sub-cover@tag.img@src"
+}
