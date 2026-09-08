@@ -1,0 +1,28 @@
+{
+  "version": 20220128,
+  "app": [],
+  "siteLive": [
+    {
+      "siteName": "IPTV直播网",
+      "siteUrl": "http://m.iptv807.com/"
+    },
+    {
+      "siteName": "Score直播聚合",
+      "siteUrl": "https://www.scoregg.com/live_list"
+    }
+  ],
+  "magnet": [
+    {
+      "siteName": "磁力链",
+      "siteUrl": "http://www.cilil.cn/"
+    }
+  ],
+  "webSearch": [],
+  "download": [
+    {
+      "siteName": "电影天堂",
+      "siteUrl": "https://www.dy2018.com/"
+    }
+  ],
+  "webSite": []
+}

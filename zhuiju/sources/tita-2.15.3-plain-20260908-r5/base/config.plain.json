@@ -1,0 +1,341 @@
+{
+  "sourceSnapshot": "tita-2.15.3-plain-20260908-r5",
+  "webVersionList": [
+    {
+      "code": "360zy",
+      "name": "360资源网",
+      "needSniff": false,
+      "version": 20260331,
+      "path": "web/360z_y.plain.json"
+    },
+    {
+      "code": "3haotv",
+      "name": "三好影院",
+      "needSniff": true,
+      "version": 20260717,
+      "path": "web/3haotv.plain.json"
+    },
+    {
+      "code": "5o5k",
+      "name": "蘑菇影视",
+      "needSniff": true,
+      "version": 20260615,
+      "path": "web/5o5k.plain.json"
+    },
+    {
+      "code": "66dpw",
+      "name": "66大片网",
+      "needSniff": true,
+      "version": 20260818,
+      "path": "web/66dpw.plain.json"
+    },
+    {
+      "code": "aiqiyizy",
+      "name": "爱奇艺资源网",
+      "needSniff": false,
+      "version": 20260331,
+      "path": "web/aiqiyiz_y.plain.json"
+    },
+    {
+      "code": "akyse",
+      "name": "爱看影视",
+      "needSniff": true,
+      "version": 20260818,
+      "path": "web/akyse.plain.json"
+    },
+    {
+      "code": "baofengzy",
+      "name": "暴风资源网",
+      "needSniff": false,
+      "version": 20260331,
+      "path": "web/baofengz_y.plain.json"
+    },
+    {
+      "code": "dadiyyw",
+      "name": "大地影院",
+      "needSniff": true,
+      "version": 20260615,
+      "path": "web/dadiyyw.plain.json"
+    },
+    {
+      "code": "dmxq17",
+      "name": "大米星球",
+      "needSniff": true,
+      "version": 20260717,
+      "path": "web/dmxq17.plain.json"
+    },
+    {
+      "code": "doubanzy",
+      "name": "豆瓣资源网",
+      "needSniff": false,
+      "version": 20260331,
+      "path": "web/doubanzy.plain.json"
+    },
+    {
+      "code": "douhua",
+      "name": "豆花影院",
+      "needSniff": true,
+      "version": 20260302,
+      "path": "web/douhua.plain.json"
+    },
+    {
+      "code": "dyttzy",
+      "name": "天堂资源网",
+      "needSniff": false,
+      "version": 20260331,
+      "path": "web/dyttz_y.plain.json"
+    },
+    {
+      "code": "fdzys",
+      "name": "饭搭子影视",
+      "needSniff": true,
+      "version": 20260717,
+      "path": "web/fdzys.plain.json"
+    },
+    {
+      "code": "ffzy",
+      "name": "非凡资源网",
+      "needSniff": false,
+      "version": 20260331,
+      "path": "web/ffz_y.plain.json"
+    },
+    {
+      "code": "guangsuzy",
+      "name": "光速资源网",
+      "needSniff": false,
+      "version": 20240619,
+      "path": "web/guangsuzy.plain.json"
+    },
+    {
+      "code": "hongniuzy",
+      "name": "红牛资源网",
+      "needSniff": false,
+      "version": 20260331,
+      "path": "web/hongniuz_y.plain.json"
+    },
+    {
+      "code": "huohuzy",
+      "name": "火狐资源网",
+      "needSniff": false,
+      "version": 20240813,
+      "path": "web/huohuzy.plain.json"
+    },
+    {
+      "code": "huyazy",
+      "name": "虎牙资源网",
+      "needSniff": false,
+      "version": 20240619,
+      "path": "web/huyazy.plain.json"
+    },
+    {
+      "code": "ifun",
+      "name": "IFun影院",
+      "needSniff": true,
+      "version": 20250419,
+      "path": "web/ifun.plain.json"
+    },
+    {
+      "code": "iysgc",
+      "name": "影视工厂",
+      "needSniff": true,
+      "version": 20260818,
+      "path": "web/iysgc.plain.json"
+    },
+    {
+      "code": "jinyingzy",
+      "name": "金鹰资源网",
+      "needSniff": false,
+      "version": 20240619,
+      "path": "web/jinyingzy.plain.json"
+    },
+    {
+      "code": "jisuzy",
+      "name": "极速资源网",
+      "needSniff": false,
+      "version": 20260331,
+      "path": "web/jisuz_y.plain.json"
+    },
+    {
+      "code": "jp",
+      "name": "荐片电影网",
+      "needSniff": true,
+      "version": 20250530,
+      "path": "web/jp.plain.json"
+    },
+    {
+      "code": "kanxi",
+      "name": "看戏影视",
+      "needSniff": true,
+      "version": 20251128,
+      "path": "web/kanxi.plain.json"
+    },
+    {
+      "code": "kkw",
+      "name": "看看屋",
+      "needSniff": true,
+      "version": 20260424,
+      "path": "web/kkw.plain.json"
+    },
+    {
+      "code": "maotaizy",
+      "name": "茅台资源网",
+      "needSniff": false,
+      "version": 20260331,
+      "path": "web/maotaizy.plain.json"
+    },
+    {
+      "code": "mayi520",
+      "name": "蚂蚁影视",
+      "needSniff": true,
+      "version": 20250507,
+      "path": "web/mayi520.plain.json"
+    },
+    {
+      "code": "mddy",
+      "name": "魔都电影",
+      "needSniff": true,
+      "version": 20260717,
+      "path": "web/mddy.plain.json"
+    },
+    {
+      "code": "nmys",
+      "name": "农民影视网",
+      "needSniff": true,
+      "version": 20251128,
+      "path": "web/nmys.plain.json"
+    },
+    {
+      "code": "pianba",
+      "name": "片吧影院",
+      "needSniff": true,
+      "version": 20240813,
+      "path": "web/pipba.plain.json"
+    },
+    {
+      "code": "qlys",
+      "name": "麒麟影视",
+      "needSniff": true,
+      "version": 20260819,
+      "path": "web/qlys.plain.json"
+    },
+    {
+      "code": "ruyizy",
+      "name": "如意资源网",
+      "needSniff": false,
+      "version": 20260331,
+      "path": "web/ruyiz_y.plain.json"
+    },
+    {
+      "code": "sdzy",
+      "name": "闪电资源网",
+      "needSniff": false,
+      "version": 20230817,
+      "path": "web/sdzy.plain.json"
+    },
+    {
+      "code": "shdy",
+      "name": "骚火电影网",
+      "needSniff": true,
+      "version": 20260529,
+      "path": "web/shdy.plain.json"
+    },
+    {
+      "code": "subozy",
+      "name": "速播资源网",
+      "needSniff": false,
+      "version": 20260331,
+      "path": "web/suboz_y.plain.json"
+    },
+    {
+      "code": "suonizy",
+      "name": "索尼资源网",
+      "needSniff": false,
+      "version": 20240303,
+      "path": "web/suonizy.plain.json"
+    },
+    {
+      "code": "taiee",
+      "name": "太乙电影",
+      "needSniff": true,
+      "version": 20260615,
+      "path": "web/taiee.plain.json"
+    },
+    {
+      "code": "tdys",
+      "name": "糖豆影视",
+      "needSniff": true,
+      "version": 20260818,
+      "path": "web/tdys.plain.json"
+    },
+    {
+      "code": "tianyazy",
+      "name": "天涯资源网",
+      "needSniff": false,
+      "version": 20260331,
+      "path": "web/tianyaz_y.plain.json"
+    },
+    {
+      "code": "ukuzy",
+      "name": "U酷资源网",
+      "needSniff": false,
+      "version": 20260331,
+      "path": "web/ukuz_y.plain.json"
+    },
+    {
+      "code": "wfei",
+      "name": "网飞影视",
+      "needSniff": true,
+      "version": 20260615,
+      "path": "web/wfei.plain.json"
+    },
+    {
+      "code": "wjzy",
+      "name": "无尽资源网",
+      "needSniff": false,
+      "version": 20260331,
+      "path": "web/wjzy.plain.json"
+    },
+    {
+      "code": "woniu",
+      "name": "蜗牛影院",
+      "needSniff": true,
+      "version": 20260127,
+      "path": "web/woniu.plain.json"
+    },
+    {
+      "code": "wukong",
+      "name": "悟空影视",
+      "needSniff": true,
+      "version": 20260529,
+      "path": "web/wukong.plain.json"
+    },
+    {
+      "code": "yinghuadm",
+      "name": "樱花动漫网",
+      "needSniff": true,
+      "version": 20260818,
+      "path": "web/yinghuadm.plain.json"
+    },
+    {
+      "code": "ylsp",
+      "name": "永乐视频",
+      "needSniff": true,
+      "version": 20260615,
+      "path": "web/ylsp.plain.json"
+    },
+    {
+      "code": "zhijianbangong",
+      "name": "迅播影院",
+      "needSniff": true,
+      "version": 20260529,
+      "path": "web/zhijianbangong.plain.json"
+    },
+    {
+      "code": "zuidazy",
+      "name": "最大资源网",
+      "needSniff": false,
+      "version": 20260331,
+      "path": "web/zuidaz_y.plain.json"
+    }
+  ]
+}

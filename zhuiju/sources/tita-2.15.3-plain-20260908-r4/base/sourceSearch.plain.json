@@ -1,0 +1,18 @@
+{
+    "version":20260817,
+    "imgReferer":"none",
+    "webSourceBaseUrl":"https://m.douban.com",
+    "httpUserAgent":"Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 Chrome/126 Mobile Safari/537.36",
+    "webSearchUrl":"https://m.douban.com/search/?query={search}&type=1002",
+    "ruleWebSearchList":"class.search_results_subjects@tag.li",
+    "ruleWebSearchTitle":"class.subject-title@text",
+    "ruleWebSearchLink":"tag.a@href",
+    "ruleWebSearchCover":"tag.img@src",
+    "ruleWebSearchRating":"class.rating@text",
+    "runleSearchList":"$.items.*",
+    "runleSearchTypeName":"@JSon:type_name",
+    "runleSearchTitle":"@JSon:target.title",
+    "runleSearchId":"@JSon:target.id",
+    "runleSearchRating":"@JSon:target.rating.value",
+    "runleSearchCover":"@JSon:target.cover_url"
+}
