@@ -1,13 +1,12 @@
 {
   "name": "儿童动漫专区(免spider)",
-  "wallpaper": "https://动态壁纸.饭.eu.org/",
   "sites": [
     {
       "key": "dr_兔小贝",
       "name": "📚兔小贝┃儿歌故事启蒙",
       "type": 3,
-      "api": "https://cdn.jsdelivr.net/gh/fantaiying7/EXT@main/drpy2.min.js",
-      "ext": "https://cdn.jsdelivr.net/gh/fantaiying7/EXT@main/%E5%85%94%E5%B0%8F%E8%B4%9D.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/fantaiying7/EXT/main/drpy2.min.js",
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/fantaiying7/EXT/main/%E5%85%94%E5%B0%8F%E8%B4%9D.js",
       "style": {
         "type": "rect",
         "ratio": 1.597
@@ -21,8 +20,8 @@
       "key": "dr_兔小贝_b",
       "name": "📚兔小贝┃备用线路",
       "type": 3,
-      "api": "https://ghproxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
-      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/%E5%85%94%E5%B0%8F%E8%B4%9D.js",
+      "api": "https://git.yylx.win/https://raw.githubusercontent.com/fantaiying7/EXT/main/drpy2.min.js",
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/fantaiying7/EXT/main/%E5%85%94%E5%B0%8F%E8%B4%9D.js",
       "style": {
         "type": "rect",
         "ratio": 1.597
@@ -36,8 +35,8 @@
       "key": "dm84_js",
       "name": "🚌动漫巴士┃免依赖",
       "type": 3,
-      "api": "https://cdn.jsdelivr.net/gh/fantaiying7/EXT@main/drpy2.min.js",
-      "ext": "https://cdn.jsdelivr.net/gh/lonnnnnng/config01@main/js/dm84.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/fantaiying7/EXT/main/drpy2.min.js",
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/lonnnnnng/config01/main/js/dm84.js",
       "style": {
         "type": "rect",
         "ratio": 1.597

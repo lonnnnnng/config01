@@ -11,19 +11,22 @@
 
 ## 导入地址（影视仓）
 
-完整版：
+> 已在手机实测：`raw.githubusercontent.com` / `jsDelivr` / `ghproxy.net` 均不可达，
+> **只有 `gh-proxy.com`、`ghfast.top`、`git.yylx.win` 可用**。
+
+完整版（推荐）：
 ```
-https://raw.githubusercontent.com/lonnnnnng/config01/main/kids.json
+https://gh-proxy.com/https://raw.githubusercontent.com/lonnnnnng/config01/main/kids.json
 ```
-极简版（推荐先用这个）：
+极简版（全部免 spider）：
 ```
-https://raw.githubusercontent.com/lonnnnnng/config01/main/kids-lite.json
+https://gh-proxy.com/https://raw.githubusercontent.com/lonnnnnng/config01/main/kids-lite.json
 ```
 
-国内网络若直连失败，换成加速地址：
+备用加速前缀（任选其一替换开头的 `https://gh-proxy.com/`）：
 ```
-https://ghproxy.net/https://raw.githubusercontent.com/lonnnnnng/config01/main/kids-lite.json
-https://cdn.jsdelivr.net/gh/lonnnnnng/config01@main/kids-lite.json
+https://ghfast.top/
+https://git.yylx.win/
 ```
 
 ## 源说明
