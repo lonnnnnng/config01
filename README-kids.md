@@ -79,6 +79,44 @@ https://xiuxiu-pro-new.meitudata.com/posters/c2759c9c03b22f2242475139110972c7.jp
 
 含 1 个综合直播源（含少儿频道）。
 
+## 全链路连通性实测（手机端 curl，2026-10-30）
+
+| URL | 结果 |
+|---|---|
+| `gh-proxy.com/.../kids.json` | 200 / 6,156B |
+| `gh-proxy.com/.../js/drpy2.js` | 200 / 37,107B |
+| `git.yylx.win/.../js/drpy2.js`（备用） | 200 / 37,107B |
+| `gh-proxy.com/.../js/tuxiaobei.js` | 200 / 972B |
+| `git.yylx.win/.../js/tuxiaobei.js`（备用） | 200 / 972B |
+| `gh-proxy.com/.../js/dm84.js` | 200 / 1,166B |
+| `nos.netease.com/.../少儿教育.txt` | 200 / 3,714B |
+| `nos.netease.com/.../小学课堂.txt` | 200 / 9,659B |
+| `meitudata.com/.../spider.jpg` | 200 / 1,386,820B（PK 头，真 jar） |
+| `www.tuxiaobei.com/list/mip-data` | 200 / 11,484B（需 iOS UA） |
+| `dm84.tv/list-1-1.html` | 200 / 28,347B |
+
+采集源（带 `?ac=detail&wd=汪汪队`）：
+
+| 源 | 状态 | total |
+|---|---|---|
+| 量子 `cj.lziapi.com` | 200 | 34 |
+| 暴风 `bfzyapi.com` | 200 | 38 |
+| 最大 `api.zuidapi.com` | 200 | 16（**m3u8 直链 1080p 实测 200**） |
+| 非凡 `cj.ffzyapi.com` | 200 | 13（share 页 200） |
+| 电影天堂 `caiji.dyttzyapi.com` | 200 | 16（share 页 200） |
+
+已剔除：
+
+| 源 | 失败原因 |
+|---|---|
+| 红牛 `hongniuzy2.com` | **手机不可达（000）**，https/http 均失败，仅播放 CDN 可达 |
+| 无尽 `api.wujinapi.me` | 403 |
+| 天空 `api.tiankongapi.com` | 000 |
+| 卧龙 `collect.wolongzyw.com` | 000 |
+| 1080 `api.1080zyku.com` | 000 |
+| 小猫咪 `zy.xiaomaomi.cc` | 502 |
+| 黑木耳 `json.heimuer.xyz` | 302 |
+
 ## 实测验证（OK影视 5.0.8 / Redmi Note 8 Pro）
 
 | 项目 | 结果 |
