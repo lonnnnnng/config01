@@ -15,8 +15,8 @@
 |---|---|---|
 | `kids.json` | 17 | 精选：儿童 + 动漫 + 汪汪队（5 采集 + 5 guard） |
 | `kids-lite.json` | 8 | 极简：全部免 spider |
-| `kids-full.json` | **55** | 全量：我的 8 个 + 饭太硬 `/tv` 里的全部 47 个 |
-| `kids-slim.json` | **38** | full 去掉体育/听书/盘搜/直播/工具类 17 个 |
+| `kids-full.json` | **54** | 全量：我的 8 个 + 饭太硬 `/tv` 里的 46 个（已删立播） |
+| `kids-slim.json` | **37** | full 去掉体育/听书/盘搜/直播/工具类 17 个 + 立播 |
 
 `kids-full.json` 保留了饭太硬的 `hosts`（图床反代）和 `rules`（HLS 去广告正则），
 因为 guard 源的封面/播放依赖它们。
@@ -103,14 +103,16 @@ https://xiuxiu-pro-new.meitudata.com/posters/c2759c9c03b22f2242475139110972c7.jp
 | 结果 | 数量 | 说明 |
 |---|---|---|
 | 200 | 18 | 5 个采集 API、5 个 JS 文件、7 个网易云 ext、spider、xb6v |
-| 403 | 2 | `libvio.pw`（立播站 WAF，全站 403）、`cmcc.vvvv.ee`（图床反代，根路径 403 属正常） |
+| 403 | 1 | `cmcc.vvvv.ee`（图床反代，根路径 403 属正常） |
 | 000 | 1 | `img1.wsyzy.org`（原图床被墙，故用 hosts 反代） |
+
+> `libvio.pw` 已确认全站 403（WAF），立播源已从 slim/full 中删除。
 
 其余 30 个是 `csp_*Guard`，真实站点在 native 加密 dex 里，**无法静态测**，只能运行时验证。
 
 ## kids-slim.json 运行时验证（聚合搜索「汪汪队」）
 
-38 个源里 **14 个有响应**（说明 guard 加载正常）：
+37 个源里 **14 个有响应**（说明 guard 加载正常）：
 
 热播 / 茉莉(视界) / 暴风 / 哔哔合集 / 奶酪 / 剧圈 / 玩偶哥哥 /
 非凡 / 文采 / 荐片 / 最大 / 量子 / 电影天堂 / 瓜子
