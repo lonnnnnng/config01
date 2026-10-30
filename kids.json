@@ -95,6 +95,48 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
+    },
+    {
+      "key": "lzzy",
+      "name": "🐶量子┃汪汪队/儿童",
+      "type": 1,
+      "api": "https://cj.lziapi.com/api.php/provide/vod/",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "group": "汪汪队",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "bfzy",
+      "name": "🐶暴风┃汪汪队/儿童",
+      "type": 1,
+      "api": "https://bfzyapi.com/api.php/provide/vod/",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "group": "汪汪队",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "hnzy",
+      "name": "🐶红牛┃汪汪队/儿童",
+      "type": 1,
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "group": "汪汪队",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
     }
   ],
   "lives": [],
