@@ -16,7 +16,7 @@
 | `kids.json` | 17 | 精选：儿童 + 动漫 + 汪汪队（5 采集 + 5 guard） |
 | `kids-lite.json` | 8 | 极简：全部免 spider |
 | `kids-full.json` | **54** | 全量：我的 8 个 + 饭太硬 `/tv` 里的 46 个（已删立播） |
-| `kids-slim.json` | **41** | full 去体育/听书/盘搜/直播/工具类 + 立播，并入 resources 仓库 4 个采集源 |
+| `kids-slim.json` | **46** | full 去体育/听书/盘搜/直播/工具类 + 立播，并入 resources 仓库 4 个采集源 |
 
 `kids-full.json` 保留了饭太硬的 `hosts`（图床反代）和 `rules`（HLS 去广告正则），
 因为 guard 源的封面/播放依赖它们。
@@ -117,7 +117,7 @@ https://xiuxiu-pro-new.meitudata.com/posters/c2759c9c03b22f2242475139110972c7.jp
 | 处理 | 源 | 原因 |
 |---|---|---|
 | ✅ 新增 4 | 360资源(0.8s) / 猫眼(0.3s) / 速播(1.2s) / 爱奇艺(0.6s) | API 200 + 能搜「汪汪队」+ m3u8 200 + **响应 <2s** |
-| ✖ 响应过慢 | 光速/豪华/极速/魔都/U酷 | 三次复测 6~20s 超时，聚合搜索会被丢弃 |
+| ⚠ 保留但 quickSearch=0 | 光速/豪华/极速/魔都/U酷 | 手机 WiFi 下 TLS 握手 6~20s 超时；Mac 同源仅 1.5s，属链路问题；不参与聚合，可进源内使用 |
 | ⏭ 重复 5 | 暴风 / 电影天堂 / 量子 / 最大 / 非凡 | kids-slim 已有同源 |
 | ✖ 不支持搜索 | 茅台资源 | `{"code":1002,"msg":"Current API forbids keyword search."}` |
 | ✖ 播放 CDN 不通 | 虎牙 / 金鹰 | `hd.kuktxu.com` 返回 000 |
