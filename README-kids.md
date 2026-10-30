@@ -16,7 +16,7 @@
 | `kids.json` | 17 | 精选：儿童 + 动漫 + 汪汪队（5 采集 + 5 guard） |
 | `kids-lite.json` | 8 | 极简：全部免 spider |
 | `kids-full.json` | **54** | 全量：我的 8 个 + 饭太硬 `/tv` 里的 46 个（已删立播） |
-| `kids-slim.json` | **46** | full 去体育/听书/盘搜/直播/工具类 + 立播，并入 resources 仓库 4 个采集源 |
+| `kids-slim.json` | **46** | 3 组：儿童 13 / 采集 9 / 影视 24 |
 
 `kids-full.json` 保留了饭太硬的 `hosts`（图床反代）和 `rules`（HLS 去广告正则），
 因为 guard 源的封面/播放依赖它们。

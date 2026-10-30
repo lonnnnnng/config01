@@ -47,7 +47,7 @@
         "type": "rect",
         "ratio": 1.597
       },
-      "group": "备用",
+      "group": "儿童",
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0
@@ -62,7 +62,7 @@
         "type": "rect",
         "ratio": 1.597
       },
-      "group": "动漫",
+      "group": "儿童",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
@@ -76,7 +76,7 @@
         "type": "rect",
         "ratio": 1.597
       },
-      "group": "汪汪队",
+      "group": "儿童",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
@@ -90,7 +90,7 @@
         "type": "rect",
         "ratio": 1.597
       },
-      "group": "汪汪队",
+      "group": "儿童",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
@@ -104,7 +104,7 @@
         "type": "rect",
         "ratio": 1.597
       },
-      "group": "汪汪队",
+      "group": "儿童",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
@@ -118,7 +118,7 @@
         "type": "rect",
         "ratio": 1.597
       },
-      "group": "汪汪队",
+      "group": "儿童",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
@@ -132,7 +132,7 @@
         "type": "rect",
         "ratio": 1.597
       },
-      "group": "汪汪队",
+      "group": "儿童",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
@@ -470,7 +470,7 @@
         "type": "rect",
         "ratio": 1.597
       },
-      "group": "动漫"
+      "group": "儿童"
     },
     {
       "key": "MTV",
@@ -670,7 +670,7 @@
         "type": "rect",
         "ratio": 1.597
       },
-      "group": "采集(慢)",
+      "group": "采集",
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 0
@@ -684,7 +684,7 @@
         "type": "rect",
         "ratio": 1.597
       },
-      "group": "采集(慢)",
+      "group": "采集",
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 0
@@ -698,7 +698,7 @@
         "type": "rect",
         "ratio": 1.597
       },
-      "group": "采集(慢)",
+      "group": "采集",
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 0
@@ -712,7 +712,7 @@
         "type": "rect",
         "ratio": 1.597
       },
-      "group": "采集(慢)",
+      "group": "采集",
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 0
@@ -726,7 +726,7 @@
         "type": "rect",
         "ratio": 1.597
       },
-      "group": "采集(慢)",
+      "group": "采集",
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 0
