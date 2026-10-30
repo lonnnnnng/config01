@@ -48,7 +48,7 @@
     },
     {
       "key": "lzzy",
-      "name": "🐶量子┃汪汪队/儿童",
+      "name": "🐶量子┃汪汪队",
       "type": 1,
       "api": "https://cj.lziapi.com/api.php/provide/vod/",
       "style": {
@@ -62,7 +62,7 @@
     },
     {
       "key": "bfzy",
-      "name": "🐶暴风┃汪汪队/儿童",
+      "name": "🐶暴风┃汪汪队",
       "type": 1,
       "api": "https://bfzyapi.com/api.php/provide/vod/",
       "style": {
@@ -76,7 +76,7 @@
     },
     {
       "key": "hnzy",
-      "name": "🐶红牛┃汪汪队/儿童",
+      "name": "🐶红牛┃汪汪队",
       "type": 1,
       "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
       "style": {

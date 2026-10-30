@@ -98,7 +98,7 @@
     },
     {
       "key": "lzzy",
-      "name": "🐶量子┃汪汪队/儿童",
+      "name": "🐶量子┃汪汪队",
       "type": 1,
       "api": "https://cj.lziapi.com/api.php/provide/vod/",
       "style": {
@@ -112,7 +112,7 @@
     },
     {
       "key": "bfzy",
-      "name": "🐶暴风┃汪汪队/儿童",
+      "name": "🐶暴风┃汪汪队",
       "type": 1,
       "api": "https://bfzyapi.com/api.php/provide/vod/",
       "style": {
@@ -126,7 +126,7 @@
     },
     {
       "key": "hnzy",
-      "name": "🐶红牛┃汪汪队/儿童",
+      "name": "🐶红牛┃汪汪队",
       "type": 1,
       "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
       "style": {
@@ -137,6 +137,104 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
+    },
+    {
+      "key": "热播",
+      "name": "📺热播┃多线(spider)",
+      "type": 3,
+      "api": "csp_AppTTGuard",
+      "timeout": 10,
+      "playerType": 2,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "group": "汪汪队全",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "uqGL1bNENExT7/hGxpSE5qU="
+    },
+    {
+      "key": "剧圈",
+      "name": "🐻剧圈┃多线(spider)",
+      "type": 3,
+      "api": "csp_AppSxGuard",
+      "timeout": 10,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "group": "汪汪队全",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "rfOX1voDIQhH8epBwpmIsuSluiuZl4+/lm1iJsy3HwNWMxpf9CY77fshI+kByoxy7DyPatUZ1jk0ty1p"
+    },
+    {
+      "key": "瓜子",
+      "name": "👀瓜子┃不卡(spider)",
+      "type": 3,
+      "api": "csp_AppgzGuard",
+      "timeout": 15,
+      "playerType": "2",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "group": "汪汪队全",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "玩偶",
+      "name": "👽玩偶哥哥┃4K弹幕(spider)",
+      "type": 3,
+      "api": "csp_WoGGGuard",
+      "timeout": 30,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "group": "汪汪队全",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt"
+      }
+    },
+    {
+      "key": "比特",
+      "name": "🍄比特┃不卡(spider)",
+      "type": 3,
+      "api": "csp_BttwooGuard",
+      "timeout": 10,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "group": "汪汪队全",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "荐片",
+      "name": "🥝荐片┃多线(spider)",
+      "type": 3,
+      "api": "csp_JPJGuard",
+      "timeout": 10,
+      "playerType": 2,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "group": "汪汪队全",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
     }
   ],
   "lives": [],

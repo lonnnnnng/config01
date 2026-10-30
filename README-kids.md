@@ -93,6 +93,27 @@ https://xiuxiu-pro-new.meitudata.com/posters/c2759c9c03b22f2242475139110972c7.jp
 
 ## 汪汪队立大功（PAW Patrol）
 
+### 分组 `汪汪队全`（需 spider，资源最全）
+
+从饭太硬 spider 里搬来的 6 个 guard 源，`api` 直接用该 spider 内的真实类名：
+
+| 源 | api | ext |
+|---|---|---|
+| 📺热播 | `csp_AppTTGuard` | 密文（native 解） |
+| 🐻剧圈 | `csp_AppSxGuard` | 密文（native 解） |
+| 👀瓜子 | `csp_AppgzGuard` | — |
+| 👽玩偶哥哥 | `csp_WoGGGuard` | `{"Cloud-drive":...}` |
+| 🍄比特 | `csp_BttwooGuard` | — |
+| 🥝荐片 | `csp_JPJGuard` | — |
+
+实测这 6 个都能搜到汪汪队（热播有全集 212 集，剧圈有芒果4K/爱奇艺4K 线路）。
+
+> 原理：`spider` 字段下载 1.4MB 的 jar → DexClassLoader 加载 →
+> `Init.init()` → `csp_XXXGuard` 类可用 → ext 密文由 native `decrypt` 解开。
+> 所以只要 spider URL 有效，就可以在任意配置里直接复用这些源。
+
+### 分组 `汪汪队`（免 spider）
+
 单独设了 `汪汪队` 分组，3 个公开采集源，搜索"汪汪队"即可：
 
 | 源 | 实测结果 |
