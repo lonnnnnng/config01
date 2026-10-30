@@ -1,5 +1,5 @@
 {
-  "name": "儿童专区(免spider)",
+  "name": "儿童动漫专区(免spider)",
   "wallpaper": "https://动态壁纸.饭.eu.org/",
   "sites": [
     {
@@ -31,6 +31,21 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0
+    },
+    {
+      "key": "dm84_js",
+      "name": "🚌动漫巴士┃免依赖",
+      "type": 3,
+      "api": "https://cdn.jsdelivr.net/gh/fantaiying7/EXT@main/drpy2.min.js",
+      "ext": "https://cdn.jsdelivr.net/gh/lonnnnnng/config01@main/js/dm84.js",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "group": "动漫",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
     }
   ],
   "lives": [

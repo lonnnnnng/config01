@@ -47,9 +47,18 @@ https://cdn.jsdelivr.net/gh/lonnnnnng/config01@main/kids-lite.json
 
 6 岁以上课堂内容，作为延伸。
 
-### 巴士动漫（🚌动漫）— 需 spider
+### 动漫巴士（🚌免依赖）— 免 spider
 
-动漫采集源，偏大龄（6+），非低龄专属。
+- 站点 `dm84.tv`（动漫巴士，国漫/日漫/欧美/动漫电影）
+- 规则文件：`js/dm84.js`（本仓库自写，drpy2 规则）
+- 分类：国漫 / 日漫 / 欧美动漫 / 电影
+- 支持搜索（走站点 suggest 接口）
+- 播放：详情页剧集 → 解密播放器 iframe，交给客户端 webview 解析
+- 实测：列表/详情/剧集/搜索 全部字段抓取正常
+
+### 巴士动漫（🚌spider）— 需 spider
+
+同一站点的 guard 版本（`csp_Dm84Guard`），作为播放兜底。
 
 ## 关于 spider
 

@@ -1,5 +1,5 @@
 {
-  "name": "儿童专区",
+  "name": "儿童动漫专区",
   "wallpaper": "https://动态壁纸.饭.eu.org/",
   "logo": "https://bdcache1-f1.v3mh.com/image/25-12-16/6941612717007.gif",
   "spider": "https://xiuxiu-pro-new.meitudata.com/posters/c2759c9c03b22f2242475139110972c7.jpg;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
@@ -69,8 +69,23 @@
       "changeable": 0
     },
     {
+      "key": "dm84_js",
+      "name": "🚌动漫巴士┃免依赖",
+      "type": 3,
+      "api": "https://cdn.jsdelivr.net/gh/fantaiying7/EXT@main/drpy2.min.js",
+      "ext": "https://cdn.jsdelivr.net/gh/lonnnnnng/config01@main/js/dm84.js",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "group": "动漫",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
       "key": "Dm84",
-      "name": "🚌巴士┃动漫(偏大龄)",
+      "name": "🚌巴士动漫┃spider",
       "type": 3,
       "api": "csp_Dm84Guard",
       "timeout": 10,
