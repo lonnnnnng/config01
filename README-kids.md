@@ -16,7 +16,7 @@
 | `kids.json` | 17 | 精选：儿童 + 动漫 + 汪汪队（5 采集 + 5 guard） |
 | `kids-lite.json` | 8 | 极简：全部免 spider |
 | `kids-full.json` | **54** | 全量：我的 8 个 + 饭太硬 `/tv` 里的 46 个（已删立播） |
-| `kids-slim.json` | **37** | full 去掉体育/听书/盘搜/直播/工具类 17 个 + 立播 |
+| `kids-slim.json` | **46** | full 去体育/听书/盘搜/直播/工具类 + 立播，并入 resources 仓库 9 个采集源 |
 
 `kids-full.json` 保留了饭太硬的 `hosts`（图床反代）和 `rules`（HLS 去广告正则），
 因为 guard 源的封面/播放依赖它们。
@@ -109,6 +109,19 @@ https://xiuxiu-pro-new.meitudata.com/posters/c2759c9c03b22f2242475139110972c7.jp
 > `libvio.pw` 已确认全站 403（WAF），立播源已从 slim/full 中删除。
 
 其余 30 个是 `csp_*Guard`，真实站点在 native 加密 dex 里，**无法静态测**，只能运行时验证。
+
+## 并入 resources 仓库（dist/video/lite.json，27 个采集源）
+
+来源：https://raw.githubusercontent.com/lonnnnnng/resources/main/dist/video/lite.json
+
+| 处理 | 源 | 原因 |
+|---|---|---|
+| ✅ 新增 9 | 360资源 / 爱奇艺 / 光速 / 豪华 / 极速 / 猫眼 / 魔都 / 速播 / U酷 | API 200 + 能搜「汪汪队」+ m3u8 200 |
+| ⏭ 重复 5 | 暴风 / 电影天堂 / 量子 / 最大 / 非凡 | kids-slim 已有同源 |
+| ✖ 不支持搜索 | 茅台资源 | `{"code":1002,"msg":"Current API forbids keyword search."}` |
+| ✖ 播放 CDN 不通 | 虎牙 / 金鹰 | `hd.kuktxu.com` 返回 000 |
+| ✖ 重复 CDN | 新浪 | 与速播同为 `play.xluuss.com` |
+| ✖ 不可达 | 红牛/量子资源/魔都动漫/如意/优质/最大点播/iKun(000)、无尽/樱花(403) | — |
 
 ## kids-slim.json 运行时验证（聚合搜索「汪汪队」）
 

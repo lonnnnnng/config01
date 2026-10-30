@@ -604,6 +604,132 @@
         "json": "https://nos.netease.com/ysf/c66a4b5356141c49fd45ec51568017b4.txt"
       },
       "group": "饭太硬"
+    },
+    {
+      "key": "360zy",
+      "name": "🎬360资源",
+      "type": 1,
+      "api": "https://360zyzz.com/api.php/provide/vod",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "group": "采集",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "iqiyizy",
+      "name": "🎬爱奇艺",
+      "type": 1,
+      "api": "https://iqiyizyapi.com/api.php/provide/vod",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "group": "采集",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "gszy",
+      "name": "🎬光速资源",
+      "type": 1,
+      "api": "https://api.guangsuapi.com/api.php/provide/vod",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "group": "采集",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "hhzy",
+      "name": "🎬豪华资源",
+      "type": 1,
+      "api": "https://hhzyapi.com/api.php/provide/vod",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "group": "采集",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "jszy",
+      "name": "🎬极速资源",
+      "type": 1,
+      "api": "https://jszyapi.com/api.php/provide/vod",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "group": "采集",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "maoyan",
+      "name": "🎬猫眼资源",
+      "type": 1,
+      "api": "https://api.maoyanapi.top/api.php/provide/vod",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "group": "采集",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "modu",
+      "name": "🎬魔都资源",
+      "type": 1,
+      "api": "https://www.mdzyapi.com/api.php/provide/vod",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "group": "采集",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "subo",
+      "name": "🎬速播资源",
+      "type": 1,
+      "api": "https://subocaiji.com/api.php/provide/vod",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "group": "采集",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "uku",
+      "name": "🎬U酷影视",
+      "type": 1,
+      "api": "https://api.ukuapi88.com/api.php/provide/vod",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "group": "采集",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
     }
   ],
   "lives": [],
