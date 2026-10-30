@@ -1,11 +1,7 @@
 {
   "name": "儿童+影视(去体育/听书/盘搜/直播)",
   "spider": "https://xiuxiu-pro-new.meitudata.com/posters/c2759c9c03b22f2242475139110972c7.jpg;md5;d2a33b53d09ec59c4cb7e3f482ef3907",
-  "hosts": [
-    "img1.wsyzy.org=cmcc.vvvv.ee",
-    "fiizvfck.top=cmcc.vvvv.ee",
-    "images.67c6c7a.com=cmcc.vvvv.ee"
-  ],
+  "hosts": [],
   "rules": [
     {
       "name": "cdn.ryplay",
@@ -392,16 +388,6 @@
       "filterable": 0
     },
     {
-      "key": "iqiyizy",
-      "name": "🎬爱奇艺",
-      "type": 1,
-      "api": "https://iqiyizyapi.com/api.php/provide/vod",
-      "group": "采集",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
       "key": "maoyan",
       "name": "🎬猫眼资源",
       "type": 1,
@@ -436,26 +422,6 @@
       "name": "🎬豪华资源",
       "type": 1,
       "api": "https://hhzyapi.com/api.php/provide/vod",
-      "group": "采集",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0
-    },
-    {
-      "key": "jszy",
-      "name": "🎬极速资源",
-      "type": 1,
-      "api": "https://jszyapi.com/api.php/provide/vod",
-      "group": "采集",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0
-    },
-    {
-      "key": "modu",
-      "name": "🎬魔都资源",
-      "type": 1,
-      "api": "https://www.mdzyapi.com/api.php/provide/vod",
       "group": "采集",
       "searchable": 1,
       "quickSearch": 0,
