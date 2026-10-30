@@ -438,47 +438,6 @@
       "filterable": 0
     },
     {
-      "key": "dr_兔小贝",
-      "name": "📚兔小贝┃儿歌故事启蒙",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/lonnnnnng/config01/main/js/drpy2.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/lonnnnnng/config01/main/js/tuxiaobei.js",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "group": "儿童",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
-      "key": "dr_兔小贝_b",
-      "name": "📚兔小贝┃备用线路",
-      "type": 3,
-      "api": "https://git.yylx.win/https://raw.githubusercontent.com/lonnnnnng/config01/main/js/drpy2.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/lonnnnnng/config01/main/js/tuxiaobei.js",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "group": "儿童",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
-      "key": "dm84_js",
-      "name": "🚌动漫巴士┃免依赖",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/lonnnnnng/config01/main/js/drpy2.js",
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/lonnnnnng/config01/main/js/dm84.js",
-      "group": "儿童",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
       "key": "Dm84",
       "name": "🚌巴士┃动漫",
       "type": 3,
@@ -556,6 +515,110 @@
         "json": "https://nos.netease.com/ysf/c66a4b5356141c49fd45ec51568017b4.txt"
       },
       "group": "儿童"
+    },
+    {
+      "key": "dr_兔小贝",
+      "name": "📚兔小贝┃儿歌故事启蒙",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/lonnnnnng/config01/main/js/drpy2.js",
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/lonnnnnng/config01/main/js/tuxiaobei.js",
+      "group": "儿童",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      }
+    },
+    {
+      "key": "dm84_js",
+      "name": "🚌动漫巴士┃免依赖",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/lonnnnnng/config01/main/js/drpy2.js",
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/lonnnnnng/config01/main/js/dm84.js",
+      "group": "儿童",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "key": "dr_兔小贝_2",
+      "name": "📚兔小贝┃线路2",
+      "type": 3,
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/lonnnnnng/config01/main/js/drpy2.js",
+      "ext": "https://ghfast.top/https://raw.githubusercontent.com/lonnnnnng/config01/main/js/tuxiaobei.js",
+      "group": "备用",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      }
+    },
+    {
+      "key": "dr_兔小贝_3",
+      "name": "📚兔小贝┃线路3",
+      "type": 3,
+      "api": "https://git.yylx.win/https://raw.githubusercontent.com/lonnnnnng/config01/main/js/drpy2.js",
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/lonnnnnng/config01/main/js/tuxiaobei.js",
+      "group": "备用",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      }
+    },
+    {
+      "key": "dr_兔小贝_4",
+      "name": "📚兔小贝┃线路4",
+      "type": 3,
+      "api": "https://ghproxy.net/https://raw.githubusercontent.com/lonnnnnng/config01/main/js/drpy2.js",
+      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/lonnnnnng/config01/main/js/tuxiaobei.js",
+      "group": "备用",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      }
+    },
+    {
+      "key": "dm84_js_2",
+      "name": "🚌动漫巴士┃线路2",
+      "type": 3,
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/lonnnnnng/config01/main/js/drpy2.js",
+      "ext": "https://ghfast.top/https://raw.githubusercontent.com/lonnnnnng/config01/main/js/dm84.js",
+      "group": "备用",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "key": "dm84_js_3",
+      "name": "🚌动漫巴士┃线路3",
+      "type": 3,
+      "api": "https://git.yylx.win/https://raw.githubusercontent.com/lonnnnnng/config01/main/js/drpy2.js",
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/lonnnnnng/config01/main/js/dm84.js",
+      "group": "备用",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "key": "dm84_js_4",
+      "name": "🚌动漫巴士┃线路4",
+      "type": 3,
+      "api": "https://ghproxy.net/https://raw.githubusercontent.com/lonnnnnng/config01/main/js/drpy2.js",
+      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/lonnnnnng/config01/main/js/dm84.js",
+      "group": "备用",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
     }
   ],
   "lives": [],
