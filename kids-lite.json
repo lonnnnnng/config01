@@ -1,5 +1,5 @@
 {
-  "name": "儿童动漫专区(免spider)",
+  "name": "儿童影视(免spider)",
   "sites": [
     {
       "key": "dr_兔小贝",
@@ -7,29 +7,14 @@
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/lonnnnnng/config01/main/js/drpy2.js",
       "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/lonnnnnng/config01/main/js/tuxiaobei.js",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
       "group": "儿童",
       "searchable": 0,
       "quickSearch": 0,
-      "changeable": 0
-    },
-    {
-      "key": "dr_兔小贝_b",
-      "name": "📚兔小贝┃备用线路",
-      "type": 3,
-      "api": "https://git.yylx.win/https://raw.githubusercontent.com/lonnnnnng/config01/main/js/drpy2.js",
-      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/lonnnnnng/config01/main/js/tuxiaobei.js",
+      "changeable": 0,
       "style": {
         "type": "rect",
         "ratio": 1.597
-      },
-      "group": "备用",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
+      }
     },
     {
       "key": "dm84_js",
@@ -37,84 +22,172 @@
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/lonnnnnng/config01/main/js/drpy2.js",
       "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/lonnnnnng/config01/main/js/dm84.js",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "group": "动漫",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
+      "group": "儿童",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
     },
     {
       "key": "lzzy",
-      "name": "🐶量子┃汪汪队",
+      "name": "🎬量子资源",
       "type": 1,
       "api": "https://cj.lziapi.com/api.php/provide/vod/",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "group": "汪汪队",
+      "group": "采集",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
     },
     {
       "key": "bfzy",
-      "name": "🐶暴风┃汪汪队",
+      "name": "🎬暴风资源",
       "type": 1,
       "api": "https://bfzyapi.com/api.php/provide/vod/",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "group": "汪汪队",
+      "group": "采集",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
     },
     {
       "key": "zuidazy",
-      "name": "🐶最大┃汪汪队",
+      "name": "🎬最大资源",
       "type": 1,
       "api": "https://api.zuidapi.com/api.php/provide/vod/",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "group": "汪汪队",
+      "group": "采集",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
     },
     {
       "key": "ffzy",
-      "name": "🐶非凡┃汪汪队",
+      "name": "🎬非凡资源",
       "type": 1,
       "api": "http://cj.ffzyapi.com/api.php/provide/vod/",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "group": "汪汪队",
+      "group": "采集",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
     },
     {
       "key": "dyttzy",
-      "name": "🐶电影天堂┃汪汪队",
+      "name": "🎬电影天堂",
       "type": 1,
       "api": "https://caiji.dyttzyapi.com/api.php/provide/vod/",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "group": "汪汪队",
+      "group": "采集",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
+    },
+    {
+      "key": "360zy",
+      "name": "🎬360资源",
+      "type": 1,
+      "api": "https://360zyzz.com/api.php/provide/vod",
+      "group": "采集",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "maoyan",
+      "name": "🎬猫眼资源",
+      "type": 1,
+      "api": "https://api.maoyanapi.top/api.php/provide/vod",
+      "group": "采集",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "subo",
+      "name": "🎬速播资源",
+      "type": 1,
+      "api": "https://subocaiji.com/api.php/provide/vod",
+      "group": "采集",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "gszy",
+      "name": "🎬光速资源",
+      "type": 1,
+      "api": "https://api.guangsuapi.com/api.php/provide/vod",
+      "group": "采集",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "key": "hhzy",
+      "name": "🎬豪华资源",
+      "type": 1,
+      "api": "https://hhzyapi.com/api.php/provide/vod",
+      "group": "采集",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "key": "uku",
+      "name": "🎬U酷影视",
+      "type": 1,
+      "api": "https://api.ukuapi88.com/api.php/provide/vod",
+      "group": "采集",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "key": "dr_兔小贝_2",
+      "name": "📚兔小贝┃线路2",
+      "type": 3,
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/lonnnnnng/config01/main/js/drpy2.js",
+      "ext": "https://ghfast.top/https://raw.githubusercontent.com/lonnnnnng/config01/main/js/tuxiaobei.js",
+      "group": "备用",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      }
+    },
+    {
+      "key": "dr_兔小贝_3",
+      "name": "📚兔小贝┃线路3",
+      "type": 3,
+      "api": "https://git.yylx.win/https://raw.githubusercontent.com/lonnnnnng/config01/main/js/drpy2.js",
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/lonnnnnng/config01/main/js/tuxiaobei.js",
+      "group": "备用",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      }
+    },
+    {
+      "key": "dm84_js_2",
+      "name": "🚌动漫巴士┃线路2",
+      "type": 3,
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/lonnnnnng/config01/main/js/drpy2.js",
+      "ext": "https://ghfast.top/https://raw.githubusercontent.com/lonnnnnng/config01/main/js/dm84.js",
+      "group": "备用",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "key": "dm84_js_3",
+      "name": "🚌动漫巴士┃线路3",
+      "type": 3,
+      "api": "https://git.yylx.win/https://raw.githubusercontent.com/lonnnnnng/config01/main/js/drpy2.js",
+      "ext": "https://git.yylx.win/https://raw.githubusercontent.com/lonnnnnng/config01/main/js/dm84.js",
+      "group": "备用",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
     }
   ],
   "lives": [],
