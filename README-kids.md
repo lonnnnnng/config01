@@ -16,6 +16,7 @@
 | `kids.json` | 17 | 精选：儿童 + 动漫 + 汪汪队（5 采集 + 5 guard） |
 | `kids-lite.json` | 8 | 极简：全部免 spider |
 | `kids-full.json` | **55** | 全量：我的 8 个 + 饭太硬 `/tv` 里的全部 47 个 |
+| `kids-slim.json` | **38** | full 去掉体育/听书/盘搜/直播/工具类 17 个 |
 
 `kids-full.json` 保留了饭太硬的 `hosts`（图床反代）和 `rules`（HLS 去广告正则），
 因为 guard 源的封面/播放依赖它们。
@@ -96,6 +97,16 @@ https://xiuxiu-pro-new.meitudata.com/posters/c2759c9c03b22f2242475139110972c7.jp
 ## 直播
 
 含 1 个综合直播源（含少儿频道）。
+
+## kids-slim.json 静态连通性（21 个可提取 URL）
+
+| 结果 | 数量 | 说明 |
+|---|---|---|
+| 200 | 18 | 5 个采集 API、5 个 JS 文件、7 个网易云 ext、spider、xb6v |
+| 403 | 2 | `libvio.pw`（立播站 WAF，全站 403）、`cmcc.vvvv.ee`（图床反代，根路径 403 属正常） |
+| 000 | 1 | `img1.wsyzy.org`（原图床被墙，故用 hosts 反代） |
+
+其余 35 个是 `csp_*Guard`，真实站点在 native 加密 dex 里，**无法静态测**，只能运行时验证。
 
 ## 全链路连通性实测（手机端 curl，2026-10-30）
 
