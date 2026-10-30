@@ -20,5 +20,6 @@ var rule = {
     二级: '*',
     搜索: '.list-con&&.items;.text&&Text;mip-img&&src;.time&&Text;a&&href',
     play_parse: true,
-    lazy: 'js:fetch_params.headers["user-agent"]=IOS_UA;let h=fetch(input,fetch_params);let s=jsp.pdfh(h,"body&&#videoWrap&&video-src");input=s;'
+    play_json: [],
+    lazy: 'js:let h=request(input,{headers:{"User-Agent":IOS_UA}});let u=jsp.pdfh(h,"body&&#videoWrap&&video-src");if(u&&u.length>10){input={parse:0,jx:0,url:u}}else{input={parse:1,jx:0,url:input}}'
 };
