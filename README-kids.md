@@ -9,14 +9,32 @@
 | `kids.json` | 完整版：兔小贝（主+备线路）+ 3 个增强源（需 spider） |
 | `kids-lite.json` | 极简版：仅兔小贝主备双线路，**不依赖任何 spider**，必定可用 |
 
+## 三个版本
+
+| 文件 | 源数 | 说明 |
+|---|---|---|
+| `kids.json` | 17 | 精选：儿童 + 动漫 + 汪汪队（5 采集 + 5 guard） |
+| `kids-lite.json` | 8 | 极简：全部免 spider |
+| `kids-full.json` | **55** | 全量：我的 8 个 + 饭太硬 `/tv` 里的全部 47 个 |
+
+`kids-full.json` 保留了饭太硬的 `hosts`（图床反代）和 `rules`（HLS 去广告正则），
+因为 guard 源的封面/播放依赖它们。
+
+> 注意：`kids-full.json` 有 55 个站点，App 首次加载会明显变慢（每个 guard 源都要初始化），
+> 且大部分与儿童无关（体育/听书/盘搜/直播等）。日常用 `kids.json` 即可。
+
 ## 导入地址（影视仓）
 
 > 已在手机实测：`raw.githubusercontent.com` / `jsDelivr` / `ghproxy.net` 均不可达，
 > **只有 `gh-proxy.com`、`ghfast.top`、`git.yylx.win` 可用**。
 
-完整版（推荐）：
+精选版（推荐）：
 ```
 https://gh-proxy.com/https://raw.githubusercontent.com/lonnnnnng/config01/main/kids.json
+```
+全量版（含饭太硬全部 47 个源）：
+```
+https://gh-proxy.com/https://raw.githubusercontent.com/lonnnnnng/config01/main/kids-full.json
 ```
 极简版（全部免 spider）：
 ```
