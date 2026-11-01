@@ -328,6 +328,30 @@
       "group": "影视"
     },
     {
+      "key": "MDrive",
+      "name": "🗂我的云盘┃配置",
+      "type": 3,
+      "api": "csp_MyDriveGuard",
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt"
+      },
+      "group": "儿童",
+      "timeout": 30,
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "key": "push_agent",
+      "name": "🛴手机┃推送",
+      "type": 3,
+      "api": "csp_PushGuard",
+      "group": "儿童",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
       "key": "lzzy",
       "name": "🎬量子资源",
       "type": 1,
