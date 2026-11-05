@@ -55,13 +55,21 @@ proxies:
 proxy-groups:
   - name: "🚀 节点选择"
     type: select
-    proxies: ["⚡ 自动选择", DIRECT, REJECT, CF-VLESS-WARP-80, CF-VLESS-WARP-8080, CF-VLESS-WARP-8880, CF-VLESS-WARP-2052, CF-VLESS-WARP-2082, CF-VLESS-WARP-2086, CF-VLESS-WARP-2095]
+    proxies: ["⚡ 自动选择", "🧪 Fallback 实测", DIRECT, REJECT, CF-VLESS-WARP-80, CF-VLESS-WARP-8080, CF-VLESS-WARP-8880, CF-VLESS-WARP-2052, CF-VLESS-WARP-2082, CF-VLESS-WARP-2086, CF-VLESS-WARP-2095]
   - name: "⚡ 自动选择"
     type: url-test
     proxies: [CF-VLESS-WARP-80, CF-VLESS-WARP-8080, CF-VLESS-WARP-8880, CF-VLESS-WARP-2052, CF-VLESS-WARP-2082, CF-VLESS-WARP-2086, CF-VLESS-WARP-2095]
     url: "https://www.gstatic.com/generate_204"
     interval: 300
     lazy: false
+  - name: "🧪 Fallback 实测"
+    type: fallback
+    proxies: [CF-VLESS-WARP-80, CF-VLESS-WARP-8080, CF-VLESS-WARP-8880, CF-VLESS-WARP-2052, CF-VLESS-WARP-2082, CF-VLESS-WARP-2086, CF-VLESS-WARP-2095]
+    url: "https://www.gstatic.com/generate_204"
+    interval: 15
+    lazy: false
+    timeout: 5000
+    max-failed-times: 1
   - name: "🛑 广告拦截"
     type: select
     proxies: [REJECT, DIRECT, "🚀 节点选择"]
